@@ -1,0 +1,602 @@
+/*
+* {
+    box-sizing: border-box;
+}
+*/
+html {
+    min-width: 35%;
+    overflow-x: hidden;
+}
+
+body {
+    min-width: 0%;
+   /* margin: auto;*/
+}
+.wrapper {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+   /* overflow: hidden;*/
+}
+/*
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+    ❅
+  </div>
+  <div class="snowflake">
+    ❆
+  </div>
+  <div class="snowflake">
+    ❅
+  </div>
+  <div class="snowflake">
+    ❆
+  </div>
+  <div class="snowflake">
+    ❅
+  </div>
+  <div class="snowflake">
+    ❆
+  </div>
+</div>*/
+
+@font-face {
+    font-family: "Royal Acid Bath";
+    src: url("Fonts/Royalacid_o.ttf");
+}
+@font-face {
+    font-family: "Royal Acid";
+    src: url("Fonts/Royalacid.ttf");
+}
+
+@font-face {
+    font-family: "Routhers";
+    src: url("Fonts/Routhers.ttf");
+}
+   
+@font-face {
+    font-family:"AkzidenzGrotesk-Regular";
+    src: url("AkzidenzGrotesk-Regular.otf")
+}
+    
+
+/*Base Styles-------------------*/
+
+body {
+  /*background: linear-gradient(#FFC022, #F38920, #DD6C26);*/
+    background: gray;
+    /*background-color: #654321;*/
+   /* background-size: cover;*/
+  /*  background-image: url("img/giphy2.gif");
+    background-size: 500%;*/
+/*    background-repeat: none;*/
+    
+   /* color: #2f4f4f;*/
+    font-family: Helvetica, sans-serif;
+    font-size: 1.0em;
+    margin: 20px;
+    overflow-x: hidden;
+    
+   
+    
+
+}
+
+
+h1 {  
+  font-size: 5em;  /*900px/16px*/  
+  color: yellow;
+    background-color: #7B5F44;
+    border: 2px solid yellow;
+  text-transform: uppercase;
+  /*font-family: 'Lato', sans-serif;*/
+    line-height: 80px;
+    margin-top: 5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: "AkzidenzGrotesk-Regular", Helvetica, sans-serif;
+  /*  font-family: 'Lato', sans-serif;*/
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    line-height: 70px;
+    color: yellow;
+    text-align: left;
+    background-color: #7B5F44;
+    border: 3px yellow solid;
+    text-decoration-line: underline;
+    /*border-color: yellow;
+    border-style: solid;
+    border-width: 2px;
+  */
+    /*white-space: nowrap;*/
+    
+}
+
+p {
+   font-size: 3em;
+   font-family: "AkzidenzGrotesk-Regular", Helvetica, sans-serif;
+  /*  font-family: 'Lato', sans-serif;*/
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    /*padding: 10px;*/
+    line-height: 70px;
+    color: yellow;
+    text-align: left;
+    background-color: #7B5F44; 
+    /*border-image: url(blank-paint-01.png) 100 stretch;
+     border-image: url(border.png) 30 stretch;
+    border: 10px solid transparent;*/
+  padding: 15px;
+ 
+    
+    
+}
+
+#src {
+    width: 50%;
+}
+
+.primary-content {
+    margin:auto;
+    text-align: center;
+}
+
+.main-header {
+   /* padding-top: 200px;*/
+    padding-bottom: 36px;
+    position: relative;
+}
+
+
+   nav a {
+        text-align: center;
+        margin-bottom: 10px;
+          
+    }
+
+.charlie-bear {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 10%;
+  /*  border: 10px solid mediumpurple;*/
+    z-index: 1;
+/*    position: relative;*/
+ /* animation: rotation 2s infinite linear;*/
+
+}
+
+ .email {
+    margin-top: 9em;
+     background-color: #7B5F44;
+     border: 5px solid yellow;
+     color: white;
+     text-decoration: underline;
+    }
+
+form {
+    margin-bottom: 2em;
+}
+
+input {
+    background-color: yellow;
+}
+
+li {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 2px solid yellow;
+    background-color: #7B5F44;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    text-decoration: underline;
+    
+    
+}
+
+ul {
+
+    margin-top: 5em;
+    margin-bottom: 1em;
+    padding-left: 0em;
+    text-decoration: none;
+    padding-bottom: 10px;
+    /*border: 2px solid red;*/
+/*    position: fixed;*/
+    
+}
+
+li a {
+    /*text-decoration: underline;*/
+    padding-bottom: 10px;
+}
+
+
+p {
+    text-align: left;
+    font-family: "AkzidenzGrotesk-Regular", Helvetica, sans-serif;
+    color: white;
+    letter-spacing: .1px;
+    font-size: 1.25em; /* 20px/16px */
+    line-height: 1.4;
+  /*  padding-bottom: 1em;*/
+    background-color: #7B5F44;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 2px;
+
+    
+}
+
+
+
+
+
+footer {
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+
+/* Layout Styles ------------------ */
+
+
+
+
+.window-bears {
+    padding-top: 10em;
+    text-align: center;
+}
+
+.window-bears2 {
+    width: 89%;
+    padding-bottom: 5em;
+    margin: auto;
+    text-align: center;
+  
+    
+    
+}
+
+
+.bear-head,.bear-head2 {
+    padding-top: 1em;
+    z-index: -1;
+    
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+.bear-head {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+.bear-head  {
+    width: 15%;
+    position: fixed;
+    top: 32%;
+    left: 6%;
+    transform: /*rotateX(20deg);*/
+    
+}
+
+.bear-head2 {
+    width: 15%;
+    position: fixed;
+    top: 32%;
+    right: 5.5%;
+    
+}
+
+.bear-head2 {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+
+.to-top { 
+    color: yellow !important;
+  /*  font-family: "Routhers", Arial, sans-serif;*/
+    font-size: .75rem !important;
+    line-height: 110%; 
+    letter-spacing: 1px;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    position: fixed;
+    text-transform: uppercase;
+    z-index: 2;
+    background-color: #7B5F44;
+    padding: 15px;
+    border: 2px yellow solid;
+    text-decoration: underline;
+    
+    
+    
+}
+
+.to-top2 { 
+    color: yellow !important;
+   /* font-family: "Routhers", Arial, sans-serif;*/
+    font-size: .75rem !important;
+    line-height: 110%; 
+    letter-spacing: 1px;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    position: fixed;
+    text-transform: uppercase;
+    z-index: 2;
+    background-color: #7B5F44;
+    padding: 15px;
+    border: 2px yellow solid;
+    text-decoration: underline;
+    
+}
+
+/*.img-wrapper {
+    padding-bottom: 50px;
+    padding-top: 100px;
+}*/
+
+
+/*.cover {
+    margin-top: 151px;
+}*/
+
+
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:visited {
+  color: yellow;
+
+}
+
+a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+
+/*.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+    
+.clearfix:before,
+.clearfix:after 
+
+{
+    content: " ";
+    display: table;
+}
+/* Media queries ------------------ */
+
+/*@media (min-width: 701px) {
+    .to-top2 { 
+    display: none;
+}*/
+
+
+
+
+/*@media (min-width:375px) and (max-width: 500px)*/ 
+    
+
+/*    .header-container {
+        position: relative;
+    }*/
+    
+    
+/* nav a {
+        float: left;
+        width: 25%;
+        margin: 0 1.7%;
+        padding: 6px 2%;
+        margin-bottom: 0;
+        border: 2px solid yellow;
+        display: inline;
+        background-color: darkblue;
+    }*/
+    
+   /* li {
+        display: inline;
+    }*/
+    
+    
+
+  /*  .to-top  {
+        position: absolute;
+        top: 500px;
+        margin-left: 0px;
+    }*/
+    
+  /*  .container {
+        margin-left: 0px;
+    }
+    
+    .wrapper {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    }
+    
+    img {
+    text-align: center;    
+    }
+    
+    h1 {
+    text-align:left;    
+    }
+    */
+ /*   .main-header {
+        text-align:left;
+        position: relative;
+    }*/
+
+    
+@media (min-width: 900px) /*and*/ /*(max-width:1200px)*/ {
+
+
+    .wrapper {
+        width: 70%;
+    }
+    body {
+    width: 80%;
+    margin:auto;
+        
+    }
+    
+    h2 {
+           width: 98%;
+    }
+    
+    h3, .insta {
+        text-align: center;
+    }
+    
+    footer, {
+        text-align: center;
+    }
+    nav {
+        display: inline-block;
+        margin-top: 0px;
+        padding: 0px;
+       /* border: 2px dotted red;*/
+    }
+      ul {
+        
+        /*display: inline-block;*/
+        text-align: center;
+        position: fixed;
+        top: 0;
+        right: 0%;
+        left: 0%;
+        z-index: 4;
+          margin-top: 0;
+        
+}
+    
+   
+    
+    li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 6%;
+        margin-top: 0;
+        padding: 11px;
+        /*padding-top: 30px;*/
+   /*     padding-left: 35px;*/
+    background-color: #7B5F44;
+    text-transform: capitalize;
+
+        text-decoration: underline;
+        font-size: 1.2em;
+        border: 2px solid yellow;
+    
+    
+}
+    
+    
+  
+    
+    li a {
+        
+       width: 100%;
+    }
+    
+    .logos {
+        padding-top: 5em;
+    }
+}
+  
+    
+@media (min-width:800px) and (max-width:900px) {
+      
+    li {
+        
+        text-align: center;
+        padding-top: 18px;
+        padding-bottom: 20px;
+        text-decoration: underline;
+        font-size: 1.2em;
+        border: 2px solid yellow;
+    }
+}
+    
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 22%;
+    display: inline-block;
+    text-decoration: underline;
+    border: 3px solid red;
+     overflow: hidden;*/
+    
+/*    position: fixed;*/
+
+    
+    /* li clearfix {
+        float: left;*/
+/*    }
