@@ -121,10 +121,10 @@ h2 {
     font-weight: 100;
     margin-bottom: 0px;
     margin-right: 0px;
-    padding-left: 10px;
+    padding-left: 0px;
     line-height: 70px;
     color: yellow;
-    text-align: left;
+    text-align: center;
     background-color: #7B5F44;
     border: 3px yellow solid;
     text-decoration-line: underline;
@@ -292,13 +292,14 @@ footer {
 /* Layout Styles ------------------ */
 
 
-h3 {
-    font-size: 1.4em;
+h4 {
+    font-size: 1.7em;
     background-color: #7B5F44;
     padding-top: 1em;
     padding-bottom: 1em;
     border: 2px solid yellow;
     margin-top: -2em;
+    margin-bottom: .75em;
     text-decoration: underline;
 }
 
