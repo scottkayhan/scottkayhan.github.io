@@ -197,16 +197,38 @@ p {
      border: 5px solid yellow;
      color: white;
      text-decoration: underline;
+     margin-left: 15%;
+     margin-right: 15%;
     }
 
 form {
-    margin-bottom: 2em;
+   margin-right: 15%;
+    margin-left: 15%;
+    padding-bottom: 10px;
+    
+    
+}
+
+textarea {
+    margin: auto;
+    /*text-align: center;*/
+    border: 3px solid yellow;
+    margin-bottom: 10px;
 }
 
 input {
+    display: block;
     background-color: yellow;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    text-decoration: underline; 
 }
 
+.email h3 {
+    color: yellow;
+    text-decoration: underline;
+}
 li {
     display: block;
     text-align: center;
