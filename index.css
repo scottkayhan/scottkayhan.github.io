@@ -197,8 +197,8 @@ p {
      border: 5px solid yellow;
      color: white;
      text-decoration: underline;
-     margin-left: 15%;
-     margin-right: 15%;
+     margin-left: 20%;
+     margin-right: 20%;
     }
 
 form {
@@ -284,7 +284,7 @@ p {
 
 
 footer {
-    background-color: transparent;
+    /*background-color: transparent;*/
     width: 100%;
     text-align: center;
 }
@@ -292,7 +292,15 @@ footer {
 /* Layout Styles ------------------ */
 
 
-
+h3 {
+    font-size: 1.4em;
+    background-color: #7B5F44;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 2px solid yellow;
+    margin-top: -2em;
+    text-decoration: underline;
+}
 
 .window-bears {
     padding-top: 10em;
@@ -402,6 +410,21 @@ footer {
     border: 2px yellow solid;
     text-decoration: underline;
     
+}
+
+.insta h3 {
+    font-size: 1em;
+        text-align: center;
+    line-height: 2em;
+    background-color: brown;
+    
+    }
+
+.footer {
+    text-align: center;
+    margin:auto;
+    color: yellow;
+    text-decoration: underline;
 }
 
 /*.img-wrapper {
@@ -532,7 +555,7 @@ a:active {
            width: 98%;
     }
     
-    h3, .insta {
+    .insta h3 {
         text-align: center;
     }
     
