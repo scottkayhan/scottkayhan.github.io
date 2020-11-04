@@ -3,9 +3,10 @@
     box-sizing: border-box;
 }
 */
-html {
+html li a {
     min-width: 35%;
     overflow-x: hidden;
+    text-transform: uppercase;
 }
 
 body {
@@ -13,12 +14,13 @@ body {
    /* margin: auto;*/
 }
 .wrapper {
-    width: 100%;
+    width: 90%;
     margin: auto;
     text-align: center;
     
    /* overflow: hidden;*/
 }
+
 /*
 <div class="snowflakes" aria-hidden="true">
   <div class="snowflake">
@@ -194,7 +196,7 @@ p {
  .email {
     margin-top: 9em;
      background-color: #7B5F44;
-     border: 5px solid yellow;
+     border: 2px solid yellow;
      color: white;
      text-decoration: underline;
      margin-left: 20%;
@@ -212,8 +214,11 @@ form {
 textarea {
     margin: auto;
     /*text-align: center;*/
-    border: 3px solid yellow;
+    border: 2px solid yellow;
     margin-bottom: 10px;
+    margin-right: -15%;
+    margin-left: -15%;
+    overflow: hidden;
 }
 
 input {
@@ -264,7 +269,7 @@ li a {
 
 
 p {
-    text-align: left;
+    text-align: center;
     font-family: "AkzidenzGrotesk-Regular", Helvetica, sans-serif;
     color: white;
     letter-spacing: .1px;
@@ -275,6 +280,7 @@ p {
     border-color: yellow;
     border-style: solid;
     border-width: 2px;
+    text-transform: uppercase;
 
     
 }
@@ -289,6 +295,16 @@ footer {
     text-align: center;
 }
 
+p mark {
+    font-size: 1.5em;
+    padding: 10px 5px;
+    text-align: center;
+    color: yellow;
+    text-decoration: underline;
+    background: none;
+    text-transform: capitalize;
+    /*text-align: center;*/
+}
 /* Layout Styles ------------------ */
 
 
