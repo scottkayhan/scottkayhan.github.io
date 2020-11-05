@@ -205,32 +205,33 @@ li.product {
 }
 
 li.sold-out {
-    display: block;
-    /*font-size: 1.5em;*/
+    display: inline-block;
+    /* font-size: 1.5em; */
     color: yellow;
-    /*background-color:#7B5F44;*/
-    padding: 4% 4%;
+    /* background-color: #7B5F44; */
+    padding: 5% 15%;
     margin-top: -5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid yellow;
     text-decoration: underline;
+    white-space: nowrap;
 }
 
 img.cart {
     width: 7%;
     position: absolute;
-    left: 10%;
-    bottom: 30%;
-    top: 30%;
+    left: 13%;
+    top: 35%;
+    bottom: 35%;
 }
 
 img.cart2 {
     width: 7%;
     position: absolute;
-    right: 10%;
-    bottom: 30%;
-    top: 30%;
+    right: 13%;
+    bottom: 35%;
+    top: 35%;
     transform: scaleX(-1);
 }
 
