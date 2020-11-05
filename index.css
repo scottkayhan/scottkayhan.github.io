@@ -542,8 +542,8 @@ li.product {
     text-align: center;
     padding: 10px 10px;
     margin-top: 149px;
-    margin-left: 55px;
-    margin-right: 55px;
+    margin-left: 25%;
+    margin-right: 25%;
     border: 2px solid yellow;
     /*border-radius: 25px;*/
     background-color: #7B5F44;
@@ -600,8 +600,8 @@ img.cart2 {
 }
   
     
-/*@media (min-width:800px) and (max-width:900px) {
-      */
+@media (min-width:800px) and (max-width:900px) {
+      
     li {
         
         text-align: center;
@@ -622,6 +622,7 @@ img.cart2 {
     margin-top: -5%;
     margin-left: 20%;
     margin-right: 20%;
+         white-space: nowrap;
     }
     
     .email {
