@@ -4,7 +4,7 @@
 html li a {
     min-width: 35%;
     overflow-x: hidden;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 body {
@@ -15,6 +15,7 @@ body {
     width: 90%;
     margin: auto;
     text-align: center;
+    overflow-x: hidden;
 }
 
 /*Fonts --------------*/
@@ -37,15 +38,25 @@ body {
     font-family:"AkzidenzGrotesk-Regular";
     src: url("AkzidenzGrotesk-Regular.otf")
 }
-    
+
+@font-face {
+    font-family:"Alba";
+    src: url("ALBA.TTF");
+}
+
+@font-face {
+    font-family:"Arnold";
+    src: url("ARNORG__.TTF");
+}
 
 /*Base Styles-------------------*/
 
 body {
  
-    background: gray;
-    font-family: "AkzidenzGrotesk-Regular", Helvetica, sans-serif;
-    font-size: 1.0em;
+    background: #7b5f44;
+    font-family: "Routhers", Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.7em;
     margin: 20px;
     overflow-x: hidden;
 }
@@ -54,8 +65,8 @@ body {
 h1 {  
   font-size: 5em;  /*900px/16px*/
   color: yellow;
-    background-color: #7B5F44;
-    border: 2px solid yellow;
+    /*background-color: #7B5F44;
+    border: 2px solid yellow;*/
   text-transform: uppercase;
   /*font-family: 'Lato', sans-serif;*/
     line-height: 80px;
@@ -65,7 +76,7 @@ h1 {
 
 h2 {
     font-size: 3em;
-    font-family: "AkzidenzGrotesk-Regular", Helvetica, sans-serif;
+    font-family: "Alba", Helvetica, sans-serif;
   /*  font-family: 'Lato', sans-serif;*/
     font-weight: 100;
     margin-bottom: 0px;
@@ -76,22 +87,25 @@ h2 {
     text-align: center;
     /*background-color: #7B5F44;*/
     border: 3px yellow solid;
-    text-decoration-line: underline;
+   /* text-decoration-line: underline;*/
 
     
 }
 
 p {
    font-size: 3em;
-   font-family: "AkzidenzGrotesk-Regular", Helvetica, sans-serif;
-    font-weight: 100;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    line-height: 70px;
+   font-family: "Arnold", serif;
     color: yellow;
-    text-align: left;
+    text-align: center;
 /*    background-color: #7B5F44;*/ 
     padding: 10px;
+    letter-spacing: 1.25px;
+    font-size: .75em;
+    line-height: 1.2;
+    background-color: #7B5F44;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 2px;
  
     
     
@@ -123,10 +137,8 @@ p {
     display: block;
     margin: auto;
     padding-top: 10%;
-  /*  border: 10px solid mediumpurple;*/
     z-index: 1;
-/*    position: relative;*/
- /* animation: rotation 2s infinite linear;*/
+
 
 }
 
@@ -134,10 +146,10 @@ p {
      font-size: .8em;
      margin-top: 9em;
      padding-bottom: 23px;
-     background-color: #7B5F44;
-     border: 2px solid yellow;
+     /*background-color: #7B5F44;
+     border: 2px solid yellow;*/
      color: white;
-     text-decoration: underline;
+    /* text-decoration: underline;*/
      margin-left: 7%;
      margin-right: 7%;
     }
@@ -149,7 +161,7 @@ p {
     }
 
 form {
-   margin-right: 15%;
+    margin-right: 15%;
     margin-left: 15%;
     padding-bottom: 10px;
     
@@ -177,36 +189,40 @@ input {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 7%;
+    margin-top: -3%;
     text-align: center;
-    text-decoration: underline; 
+    /*text-decoration: underline; */
 }
 
 .email h3 {
     color: yellow;
-    text-decoration: underline;
+    font-size: 3em;
+    margin-bottom: 3%;
+    /*text-decoration: underline;*/
 }
 
 li.product {
     
     display: block;
     position: static;
+    font-size: 2.8em;
     color: yellow;
     text-align: center;
-    padding: 10px 10px;
+    /*padding: 10px 10px;*/
     margin-top: 149px;
     margin-left: 5%;
     margin-right: 5%;
-    border: 2px solid yellow;
-    background-color: #7B5F44;
-    text-transform: capitalize;
-    font-size: 1.2em;
-    text-decoration: underline;
+    margin-bottom: -5%;
+    /*border: 2px solid yellow;
+    background-color: #7B5F44;*/
+   /* text-transform: capitalize;*/
+   
+   /* text-decoration: underline;*/
      
 }
 
 li.sold-out {
-    display: inline-block;
-    /* font-size: 1.5em; */
+    display: inline;
     color: yellow;
     /* background-color: #7B5F44; */
     padding: 5% 15%;
@@ -214,7 +230,7 @@ li.sold-out {
     margin-left: auto;
     margin-right: auto;
     border: 2px solid yellow;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     white-space: nowrap;
 }
 
@@ -256,22 +272,17 @@ li a {
 }
 
 
-p {
-    text-align: center;
-    font-family: "AkzidenzGrotesk-Regular", Helvetica, sans-serif;
-    color: white;
-    letter-spacing: .1px;
-    font-size: 1.25em; /* 20px/16px */
-    line-height: 1.4;
-  /*  padding-bottom: 1em;*/
+/*p {
+    letter-spacing: 1.25px;
+    font-size: 1.25em;
+    line-height: 1.2;
     background-color: #7B5F44;
     border-color: yellow;
     border-style: solid;
     border-width: 2px;
-    text-transform: uppercase;
 
     
-}
+}*/
 
 
 
@@ -288,23 +299,26 @@ p mark {
     padding: 10px 5px;
     text-align: center;
     color: yellow;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     background: none;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     /*text-align: center;*/
 }
 /* Layout Styles ------------------ */
 
-
 h4 {
-    font-size: 1.3em;
-    background-color: #7B5F44;
+    font-size: 3em;
+    color: yellow;
+}
+.about {
+    font-size: 2.3em;
+    color: yellow;
     padding-top: 1em;
-    padding-bottom: 1em;
-    border: 2px solid yellow;
-    margin-top: -2em;
+    /* padding-bottom: 1em; */
+    /* border: 2px solid yellow; */
+    margin-top: 0em;
     margin-bottom: .75em;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 .window-bears {
@@ -354,7 +368,7 @@ h4 {
 .bear-head  {
     width: 15%;
     position: fixed;
-    top: 32%;
+    top: 40%;
     left: 6%;
     transform: /*rotateX(20deg);*/
     
@@ -363,7 +377,7 @@ h4 {
 .bear-head2 {
     width: 15%;
     position: fixed;
-    top: 32%;
+    top: 40%;
     right: 5.5%;
     
 }
@@ -387,12 +401,12 @@ h4 {
     left: 0px;
     display: inline-block;
     position: fixed;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     z-index: 2;
     background-color: #7B5F44;
     padding: 15px;
     border: 2px yellow solid;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     
     
     
@@ -408,12 +422,12 @@ h4 {
     right: 0px;
     display: inline-block;
     position: fixed;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     z-index: 2;
     background-color: #7B5F44;
     padding: 15px;
     border: 2px yellow solid;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     
 }
 
@@ -429,7 +443,7 @@ h4 {
     text-align: center;
     margin:auto;
     color: yellow;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 /*.img-wrapper {
@@ -545,12 +559,13 @@ li.product {
     margin-top: 149px;
     margin-left: 25%;
     margin-right: 25%;
-    border: 2px solid yellow;
+    margin-bottom: -5%;
+    /*border: 2px solid yellow;*/
     /*border-radius: 25px;*/
-    background-color: #7B5F44;
+    /*background-color: #7B5F44;*/
     text-transform: capitalize;
-    font-size: 1.5em;
-    text-decoration: underline;
+    font-size: 2em;
+  /*  text-decoration: underline;*/
      
 }
     
@@ -590,10 +605,10 @@ img.cart2 {
     font-size: .8em;
     margin-top: 9em;
     padding-bottom: 15px;
-    background-color: #7B5F44;
-    border: 2px solid yellow;
+    /*background-color: #7B5F44;
+    border: 2px solid yellow;*/
     color: white;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -608,7 +623,7 @@ img.cart2 {
         text-align: center;
         padding-top: 18px;
         padding-bottom: 20px;
-        text-decoration: underline;
+        /*text-decoration: underline;*/
         font-size: 1.2em;
         border: 2px solid yellow;
     }
@@ -630,10 +645,10 @@ img.cart2 {
     font-size: .8em;
     margin-top: 9em;
     padding-bottom: 15px;
-    background-color: #7B5F44;
-    border: 2px solid yellow;
+    /*background-color: #7B5F44;
+    border: 2px solid yellow;*/
     color: white;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     margin-left: 27%;
     margin-right: 27%;
 }
@@ -650,11 +665,11 @@ img.cart2 {
     margin-top: 149px;
     margin-left: 25%;
     margin-right: 25%;
-    border: 2px solid yellow;
-    background-color: #7B5F44;
+    /*border: 2px solid yellow;*/
+    /*background-color: #7B5F44;*/
     text-transform: capitalize;
-    font-size: 1.5em;
-    text-decoration: underline;
+    font-size: 2em;
+  /*  text-decoration: underline;*/
      
 }
     
