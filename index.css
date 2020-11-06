@@ -159,9 +159,10 @@ p {
 }*/
 
 #button {
+    font-size: .75em;
     background-color: yellow;
     color: black;
-    padding: 10px 10px;
+    padding: 8px 5px;
     border: 2px solid black;
     text-decoration: underline;
     
@@ -200,7 +201,7 @@ input {
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 7%;
+    margin-bottom: 5%;
     margin-top: -3%;
     text-align: center;
     /*text-decoration: underline;*/ 
@@ -307,7 +308,7 @@ p mark {
 /* Layout Styles ------------------ */
 
 h4.insta {
-    font-size: 1.5em;
+    font-size: 1em;
     color: yellow;
     border: 3px solid yellow;
     padding: 10px 10px;
@@ -402,7 +403,7 @@ h4.insta {
 .to-top { 
     color: yellow !important;
   /*  font-family: "Routhers", Arial, sans-serif;*/
-    font-size: .75em !important;
+    font-size: .5em !important;
     line-height: 110%; 
     letter-spacing: 1px;
     top: 0px;
@@ -423,7 +424,7 @@ h4.insta {
 .to-top2 { 
     color: yellow !important;
    /* font-family: "Routhers", Arial, sans-serif;*/
-    font-size: .75em !important;
+    font-size: .55em !important;
     line-height: 110%; 
     letter-spacing: 1px;
     top: 0px;
@@ -663,12 +664,12 @@ img.cart2 {
     }
 
     li.sold-out {
-    padding: 4% 12%;
-    margin-top: -8%;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 2% 12%;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
     white-space: nowrap;
-    font-size: 1em;
+    font-size: .75em;
     }
     
     .email {
