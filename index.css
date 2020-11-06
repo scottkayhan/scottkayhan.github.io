@@ -510,6 +510,45 @@ a:active {
     
 @media (min-width: 900px) {
 
+.to-top { 
+    color: yellow !important;
+  /*  font-family: "Routhers", Arial, sans-serif;*/
+    font-size: 1em !important;
+    line-height: 110%; 
+    letter-spacing: 1px;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    position: fixed;
+    /*text-transform: uppercase;*/
+    z-index: 2;
+    background-color: #7B5F44;
+    padding: 10px 10px;
+    border: 3px yellow solid;
+    text-decoration: underline;
+    
+    
+    
+}
+
+.to-top2 { 
+    color: yellow !important;
+   /* font-family: "Routhers", Arial, sans-serif;*/
+    font-size: 1em !important;
+    line-height: 110%; 
+    letter-spacing: 1px;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    position: fixed;
+    /*text-transform: uppercase;*/
+    z-index: 2;
+    background-color: #7B5F44;
+    padding: 10px 10px;
+    border: 3px yellow solid;
+    text-decoration: underline;
+    
+}
 
     .wrapper {
         width: 80%;
@@ -643,7 +682,46 @@ img.cart2 {
   
     
 @media (min-width:800px) and (max-width:900px) {
-      
+      .to-top { 
+    color: yellow !important;
+  /*  font-family: "Routhers", Arial, sans-serif;*/
+    font-size: 1em !important;
+    line-height: 110%; 
+    letter-spacing: 1px;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    position: fixed;
+    /*text-transform: uppercase;*/
+    z-index: 2;
+    background-color: #7B5F44;
+    padding: 10px 10px;
+    border: 3px yellow solid;
+    text-decoration: underline;
+    
+    
+    
+}
+
+.to-top2 { 
+    color: yellow !important;
+   /* font-family: "Routhers", Arial, sans-serif;*/
+    font-size: 1em !important;
+    line-height: 110%; 
+    letter-spacing: 1px;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    position: fixed;
+    /*text-transform: uppercase;*/
+    z-index: 2;
+    background-color: #7B5F44;
+    padding: 10px 10px;
+    border: 3px yellow solid;
+    text-decoration: underline;
+    
+}
+
     li {
         
         text-align: center;
