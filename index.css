@@ -179,7 +179,7 @@ form {
     
 }
 
-label {
+input {
     color: yellow;
     text-decoration: underline;
     
@@ -339,6 +339,7 @@ h4.insta {
 
 .window-bears2 {
     width: 89%;
+    margin-top: 50px;
     padding-bottom: 0em;
     margin-bottom: -35px;
 /*    margin: auto;*/
