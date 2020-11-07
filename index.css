@@ -148,8 +148,6 @@ p {
 
  .email {
      font-size: .8em;
-     /*margin-top: 9em;*/
-     padding-bottom: 23px;
      background-color: #7B5F44;
      border: 3px solid yellow;
      color: white;
@@ -246,7 +244,7 @@ li.sold-out {
     color: yellow;
     /* background-color: #7B5F44; */
     padding: 3% 15%;
-   /* margin-top: -15%;*/
+    margin-top: -4%;
     margin-left: auto;
     margin-right: auto;
     border: 3px solid yellow;
@@ -342,7 +340,7 @@ h4.insta {
     width: 89%;
     margin-top: 50px;
     padding-bottom: 0em;
-        margin-bottom: -6%;
+     margin-bottom: -4%;
 /*    margin: auto;*/
     text-align: center;
   
@@ -357,38 +355,71 @@ h4.insta {
     
 }
 
-/*
-@-webkit-keyframes rotating  Safari and Chrome  {
-  from {
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-*/
-
-/*
-.bear-head {
-  -webkit-animation: rotating 2s linear infinite;
-  -moz-animation: rotating 2s linear infinite;
-  -ms-animation: rotating 2s linear infinite;
-  -o-animation: rotating 2s linear infinite;
-  animation: rotating 2s linear infinite;
-}*/
-
 .bear-head  {
     width: 15%;
     position: fixed;
     top: 40%;
     left: 6%;
-    transform: /*rotateX(20deg);*/
     
 }
+
+.bear-head,.bear-head2 {
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin { 
+        from { 
+            -ms-transform: rotate(0deg); 
+        } to { 
+            -ms-transform: rotate(360deg); 
+        }
+    }
+    @-moz-keyframes spin { 
+        from { 
+            -moz-transform: rotate(0deg); 
+        } to { 
+            -moz-transform: rotate(360deg); 
+        }
+    }
+    @-webkit-keyframes spin { 
+        from { 
+            -webkit-transform: rotate(0deg); 
+        } to { 
+            -webkit-transform: rotate(360deg); 
+        }
+    }
+    @keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
+
+/*
+.bear-head {
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+
+*/
 
 .bear-head2 {
     width: 15%;
@@ -398,18 +429,11 @@ h4.insta {
     margin-bottom: -4%;
 }
 
-/*.bear-head2 {
-  -webkit-animation: rotating 2s linear infinite;
-  -moz-animation: rotating 2s linear infinite;
-  -ms-animation: rotating 2s linear infinite;
-  -o-animation: rotating 2s linear infinite;
-  animation: rotating 2s linear infinite;
-}*/
 
 
 .to-top { 
     color: yellow !important;
-  /*  font-family: "Routhers", Arial, sans-serif;*/
+   /* font-family: Arial, sans-serif;*/
     font-size: .5em !important;
     line-height: 110%; 
     letter-spacing: 1px;
@@ -423,8 +447,6 @@ h4.insta {
     padding: 10px 10px;
     border: 3px yellow solid;
     text-decoration: underline;
-    
-    
     
 }
 
