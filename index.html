@@ -85,7 +85,43 @@
     <div class="to-top2"> <!--To Top Labels--><a href="#top" >↑This Way Up↑</a>
     </div>
       
-          
+      
+<style type="text/css">
+    @-webkit-keyframes spinner {
+    from,15% { -webkit-transform: rotateY(0deg);    }
+    to       { -webkit-transform: rotateY(-360deg); }
+  }
+
+  .bear-head {
+    -webkit-perspective: 120px;
+    -moz-perspective: 120px;
+    -ms-perspective: 120px;
+  }
+
+
+
+  .bear-head,.bear-head2 {
+    -webkit-animation-name: spinner;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 3s;
+
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+
+</style>
+
+
+        
     <div class="logos">
         <img class="charlie-bear"src="thick-border-01.png" alt="Charlie Bear">
         <img class="bear-head" src="replacement-head-01.png">

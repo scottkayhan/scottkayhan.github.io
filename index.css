@@ -342,7 +342,7 @@ h4.insta {
     width: 89%;
     margin-top: 50px;
     padding-bottom: 0em;
-    margin-bottom: -6%;
+        margin-bottom: -6%;
 /*    margin: auto;*/
     text-align: center;
   
@@ -357,7 +357,8 @@ h4.insta {
     
 }
 
-@-webkit-keyframes rotating /* Safari and Chrome */ {
+/*
+@-webkit-keyframes rotating  Safari and Chrome  {
   from {
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -369,15 +370,16 @@ h4.insta {
     transform: rotate(360deg);
   }
 }
+*/
 
-
+/*
 .bear-head {
   -webkit-animation: rotating 2s linear infinite;
   -moz-animation: rotating 2s linear infinite;
   -ms-animation: rotating 2s linear infinite;
   -o-animation: rotating 2s linear infinite;
   animation: rotating 2s linear infinite;
-}
+}*/
 
 .bear-head  {
     width: 15%;
@@ -393,16 +395,16 @@ h4.insta {
     position: fixed;
     top: 40%;
     right: 5.5%;
-    
+    margin-bottom: -4%;
 }
 
-.bear-head2 {
+/*.bear-head2 {
   -webkit-animation: rotating 2s linear infinite;
   -moz-animation: rotating 2s linear infinite;
   -ms-animation: rotating 2s linear infinite;
   -o-animation: rotating 2s linear infinite;
   animation: rotating 2s linear infinite;
-}
+}*/
 
 
 .to-top { 
@@ -659,7 +661,7 @@ img.cart2 {
         
     width: 89%;
     padding-bottom: 0em;
-    margin-bottom: 0px;
+    margin-bottom: 0%;
     /* margin-bottom: -35px; */
     /* margin: auto; */
     text-align: center;
