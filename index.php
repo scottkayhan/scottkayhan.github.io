@@ -1,4 +1,19 @@
+<?php
 
+if($_POST["submit"]) {
+    $recipient="scottkayhan@gmail.com";
+    $subject="Form to email message";
+    $senderEmail=$_POST["senderEmail"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Charlie Bear</title>
@@ -108,8 +123,8 @@
         Enter your email:
         <br>
         <br>
-        <form action="index.php" method="post" enctype="text/plain">
-        <input name="senderEmail" type="text">
+        <form action="contact.php" method="post" enctype="text/plain">
+        <input type="text" name="name" for="email">
         
       <!-- <input type="email" id="email" name="email">-->
        <input type="submit" id="button" value="SUBMIT">
