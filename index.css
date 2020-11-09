@@ -154,8 +154,8 @@ p {
     border: 3px solid yellow;
     color: white;
     /* text-decoration: underline; */
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: auto;
+    margin-right: auto;
     }
 
 /*.email {
@@ -362,7 +362,7 @@ a.insta {
 }*/
 
 .window-bears2 {
-    width: 89%;
+    width: 80%;
     margin-top: 50px;
     padding-bottom: 1em;
      margin-bottom: -4%;
