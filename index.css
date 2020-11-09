@@ -10,7 +10,7 @@ html li a {
 body,h1,h2,h3,h4 {
     min-width: 0%;
     font-weight: 100;
-    margin-bottom: 0;
+    margin-bottom: 3%;
    /* margin: auto;*/
 }
 .wrapper {
@@ -103,7 +103,6 @@ p {
    font-family: "AkzidenzGrotesk-Regular", serif;
     color: yellow;
     text-align: center;
-/*    background-color: #7B5F44;*/ 
     padding: 10px;
     letter-spacing: 1.25px;
     font-size: .75em;
@@ -148,15 +147,15 @@ p {
 
 }
 
- .email {
+/* .email {
     font-size: .8em;
     background-color: #7B5F44;
     border: 3px solid yellow;
     color: white;
-    /* text-decoration: underline; */
+     text-decoration: underline; 
     margin-left: auto;
     margin-right: auto;
-    }
+    }*/
 
 /*.email {
 }*/
@@ -174,7 +173,10 @@ p {
 form {
     margin-right: 15%;
     margin-left: 15%;
-    /*padding-bottom: 10px;*/
+    border: 3px solid yellow;
+    background-color: #7b5f44;
+    /* padding-bottom: 10px; */
+    color: yellow;
     
     
 }
@@ -219,6 +221,8 @@ input {
     /*text-decoration: underline;*/
 }
 
+
+
 li.product {
     
     display: block;
@@ -258,6 +262,7 @@ li.product {
     text-decoration: underline;
      
 }
+
 
 li.sold-out {
     display: inline;
@@ -550,13 +555,13 @@ li.sold-out:hover {
     background-color: white;
 }
 
-a:hover {
+/*a:hover {
     background-color: white;
-}
+}*/
 
-h4:hover {
+/*h4:hover {
     background-color: white;
-}
+}*/
 .insta:hover {
     background-color: white;
     color: black;
@@ -729,19 +734,30 @@ img.cart2 {
     .logos {
         padding-top: 0em;
     }
+    input {
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6%;
+    margin-top: -3%;
+    text-align: center;
+        /*text-decoration: underline;*/ }
     
-    .email {
+    /*.email {
     font-size: .8em;
     margin-top: 9em;
     padding-bottom: 20px;
     background-color: #7B5F44;
     border: 2px solid yellow;
     color: white;
-    /*text-decoration: underline;*/
+    text-decoration: underline;
     margin-top: 20%;
     margin-left: 15%;
     margin-right: 15%;
-}
+}*/
     .window-bears2 {
         
     width: 89%;
@@ -779,6 +795,10 @@ img.cart2 {
         left: auto;
         right: auto;
     }
+    
+    
+}
+
 }
   
     
@@ -851,20 +871,32 @@ img.cart2 {
     font-size: .75em;
     }
     
-    .email {
+  /*  .email {
     font-size: .8em;
     margin-top: 9em;
     padding-bottom: 20px;
     background-color: #7B5F44;
     border: 2px solid yellow;
     color: white;
-    /* text-decoration: underline; */
+     text-decoration: underline; 
     margin-top: 20%;
     margin-left: 15%;
     margin-right: 15%;
 }
-    
-    
+    */
+    input {
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6%;
+    margin-top: -3%;
+    text-align: center;
+    /*text-decoration: underline;*/ 
+}
+
     
    li.product {
     
