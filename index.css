@@ -248,35 +248,16 @@ li.product {
     text-align: center;
     padding: 20px 2px;
     /*margin-top: 1em;*/
-    margin-left: 17%;
-    margin-right: 17%;
-    margin-bottom: -1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: -2%;
     /*border: 3px solid yellow;*/
     /*background-color: #7B5F44;*/
-    /*white-space: nowrap;*/
     text-transform: uppercase;
    
-   /* text-decoration: underline;*/
+    text-decoration: underline;
      
 }
-
-/*.price {
-    display: block;
-    font-size: .70em;
-    list-style-type: none;
-    color: yellow;
-    text-align: center;
-    padding: 10px 10px;
-    margin-top: 1em;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: -1%;
-    border: 3px solid yellow;
-    background-color: #7B5F44;
-    text-transform: capitalize;
-   
-    text-decoration: underline;
-}*/
 
 li.sold-out {
     display: inline;
@@ -291,6 +272,8 @@ li.sold-out {
     text-decoration: underline;
     white-space: nowrap;
 }
+
+
 
 img.cart {
     width: 7%;
@@ -318,7 +301,7 @@ ul {
     /*margin-bottom: 1em;*/
     padding-left: 0em;
     text-decoration: none;
-    padding-bottom: 10px;
+    padding-bottom: 3%;
     /*border: 2px solid red;*/
 /*    position: fixed;*/
     
@@ -357,8 +340,10 @@ h4.insta {
     background-color: #7B5F44;
     text-decoration: underline;
     margin-top: 15%;
-    
+}
 
+a.insta {
+    padding: 100%;
 }
 .about {
     font-size: 2.3em;
@@ -541,8 +526,9 @@ h4.insta {
 
 /* Pseudo-classes ------------------ */
 
+
 a:link {
-  color: yellow;
+  color: black;
   text-decoration: none;
 }
 
@@ -552,14 +538,29 @@ a:visited {
 }
 
 a:hover {
-  color: pink;
+  color: black;
   text-decoration: none;
 }
 
 a:active {
-  color: lightcoral;
+  color: black;
 }
 
+li.sold-out:hover {
+    background-color: white;
+}
+
+a:hover {
+    background-color: white;
+}
+
+h4:hover {
+    background-color: white;
+}
+.insta:hover {
+    background-color: white;
+    color: black;
+}
 
 /*.row::after {
   content: "";
