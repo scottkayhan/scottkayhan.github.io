@@ -693,7 +693,7 @@ li.product {
     background-color: #7B5F44;
     text-transform: capitalize;
     font-size: 1.5em;
-    text-decoration: underline;
+   /* text-decoration: underline;*/
      
 }
 
@@ -927,7 +927,7 @@ img.cart2 {
     background-color: #7B5F44;
     text-transform: capitalize;
     font-size: 1.5em;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
      
     }
     
